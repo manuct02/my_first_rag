@@ -1,0 +1,8 @@
+{
+    "embedding_model": "nomic-embed-text",
+    "num_nodes": 2257,
+    "embeding_dim": [
+        2257,
+        768
+    ]
+}
