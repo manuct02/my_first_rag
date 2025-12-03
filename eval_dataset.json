@@ -1,0 +1,14 @@
+[
+  {
+    "question": "¿Quién hizo el Padrino?",
+    "expected_node_contains": "Coppola"
+  },
+  {
+    "question": "Autores del cine japonés",
+    "expected_node_contains": "Kurosawa"
+  },
+  {
+    "question": "inventores del cine",
+    "expected_node_contains": "Lumi`ere"
+  }
+]
