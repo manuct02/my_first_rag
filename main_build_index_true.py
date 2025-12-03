@@ -25,7 +25,7 @@ cargamos los documentos de la carpeta deseada con la clase Loader en un objeto d
 - output: lista de Document "documents"
 """
 
-document = Loader_robusto("data_quantum")
+document = Loader_robusto("data_cine")
 documents_list= document.load()
 print("Documentos cargados:", len(documents_list))
 """
