@@ -19,7 +19,7 @@ config = loader.load_config()
 query_engine= QueryEngine(nodes,embeddings,"nomic-embed-text")
 #pregunta
 
-question = "grandes genios del cine"
+question = "cómo funciona el cine?"
 
 # Recuperar los 3 nodos más parecidos
 retrieved = query_engine.mejores_respuestas(question, k=3)
