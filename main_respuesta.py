@@ -9,7 +9,7 @@ start_time= time()
 """usamos la clase loader para no tener que llamar al ollama en cada query.
 Asignamos nodes y embeddings a los archivos recuperados de los mismos."""
 
-loader = LoaderFromDisk("/home/manuelmaturana/PRJ/RAG/Storer/almacen")
+loader = LoaderFromDisk("/home/manuelmaturana/PRJ/RAG_Git/Storer/almacen")
 nodes = loader.load_nodes()
 embeddings = loader.load_embeddings()
 config = loader.load_config()
